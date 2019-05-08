@@ -252,7 +252,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
             }
         }
     }
-//
+////
     private void setUp() {
         chowder = new Chowder(Premium.this, PAYBILL_NUMBER, PASSKEY, this);
         etLAmount = findViewById(R.id.etLAmount);
