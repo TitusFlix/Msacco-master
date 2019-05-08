@@ -19,6 +19,14 @@ public class PostNumber extends AppCompatActivity {
     private ProgressDialog progress;
     Button btn_reg;
 
+    static String  msg="";
+    public static String getMessage(){
+        return msg;
+    }
+    public static void setMessage(String ms){
+        msg=ms;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +42,7 @@ public class PostNumber extends AppCompatActivity {
         } else {
             username = (EditText) findViewById(R.id.et_name);
             String str_name = username.getText().toString().trim();
+            msg=username.getText().toString().trim();
             String type = "register";
 
             GetNumber backgroungWorker = new GetNumber(this);
