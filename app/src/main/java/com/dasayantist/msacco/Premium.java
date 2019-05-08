@@ -252,7 +252,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
             }
         }
     }
-
+//
     private void setUp() {
         chowder = new Chowder(Premium.this, PAYBILL_NUMBER, PASSKEY, this);
         etLAmount = findViewById(R.id.etLAmount);
@@ -601,7 +601,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
 
                 return null;
             } catch (Exception e) {
-                String s = new String("Exception: " + e.getMessage());
+                String s = "Exception: " + e.getMessage();
                 System.out.print(s);
                 return null;
 
