@@ -1,0 +1,598 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:2:1-47:12
+MERGED from [:chowder] /home/zenith/Downloads/Msacco-master/chowder/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:design:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/ca0d95b2e473ea463c8ea6fb9cc2d753/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/2e53f7ed12491dba2ccfd6be62848d9c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/zenith/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f2564614b6cf8912bf6175606bc3203b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-rc02.aar/9bcd875b989b3884362c4be350281c1d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-rc02.aar/decec07fb03c32c9e277dff72db3896b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/bfafb1241ad6c82cc9bc0e24cfb8d310/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/353bb2e54b21a0e5dd9bb52b973f5f45/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-storage:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.1.aar/7007efdea1c4c13c68f505ab637c8ba2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/5b9c546551c9bb2fdfe7d886e0052e58/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/d7cec39b1e7f6e495d97a4e790cd5b4f/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/620aca46bb9d9058581777e7b74fa0fe/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/68a1bed54c0d078357910b5c7a9aeed7/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/d846a337973e8631bf41abd1b0b0b66b/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/76a18408a40d2505a763329c41ddd7ae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/88efb19e9fd9d554427dc127fe57ce2c/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/f2ec862a8a40a9aac20ba6717cf8feb5/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/3d64c0fbbe1e848fe258796c1b3ba8f7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/04a1ca2cea2fdfce542b0c6dbbdcac5d/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/bff1e92e7ee6f7fdd46e59d37c5a32b5/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/6ddcf5d93ad2faf6fd1e992cbd732acc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/d8cecb026eba04b1861a97f3f840b26e/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/e65c1e88350aa84739cbe7b0943f635f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8b20100cbad2b8e517541a62b02b3634/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2eb9eb65407f305c15c2880de0f2c68c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/4b0aa5ea4637ca317aaccd7d5e95e079/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/7c638b6198622c20b03bc29186e7c2b7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/50152c09b2425d3953899450eae71b60/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/c81282a7df7f17d0a8184f86af1169e2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/50d0c6f9e59aba7df6a591c2342f06ec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-rc02.aar/ec217fee4b12963f09af54adb7034223/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/3bc026c76b04c9099f50eb0be9f296f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/65e55074587efa598e25bc3b3173404a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/6d4a5852ba9ed6d6b281aa335c78ee08/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/34ac2af65d6d4006663aaf19d84a834f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/7df4c208900167d7346f023c90c54289/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/ee9942e304fc62f12aee3f4686db2a2b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/710e1d323df30fc78899f2d677d81533/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/45b62680c4bf16b4cd7f20d0298e7cae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/55d335821784784b2cecaf7d1bd96fa1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/7beb9be0554b701f2b6072af76dc0327/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/a0500b71666ee32175681ace9e3d93a8/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/c77e8f1acb6dc1c8bc318f8ff25925b6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/15cd1021bc66c85cb39a37bea984533f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/a7bd7d066f03bf2a9480e77d3da96918/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/6757469d5ec556048cd0b9cde1e80517/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/c2fdaca8d75b78db41c923f0f9644ec7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a4677903d4fb62e2cd0aa786704b18e3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/0e003f0711a849c06659d099529c0bc6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/17ed1717a074d637eb2927522b0ba10c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0dae43fe488ec0fbde94e8e90e561d9f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/a6117abcb9eba3bec3e6317182964f54/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:2:1-47:12
+	package
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:2:1-47:12
+		INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:2:1-47:12
+		INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [:chowder] /home/zenith/Downloads/Msacco-master/chowder/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:chowder] /home/zenith/Downloads/Msacco-master/chowder/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/5b9c546551c9bb2fdfe7d886e0052e58/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/5b9c546551c9bb2fdfe7d886e0052e58/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/d7cec39b1e7f6e495d97a4e790cd5b4f/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/d7cec39b1e7f6e495d97a4e790cd5b4f/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/68a1bed54c0d078357910b5c7a9aeed7/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/68a1bed54c0d078357910b5c7a9aeed7/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/bff1e92e7ee6f7fdd46e59d37c5a32b5/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/bff1e92e7ee6f7fdd46e59d37c5a32b5/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/5b9c546551c9bb2fdfe7d886e0052e58/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/5b9c546551c9bb2fdfe7d886e0052e58/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/68a1bed54c0d078357910b5c7a9aeed7/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/68a1bed54c0d078357910b5c7a9aeed7/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/bff1e92e7ee6f7fdd46e59d37c5a32b5/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/bff1e92e7ee6f7fdd46e59d37c5a32b5/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_SMS
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from [:chowder] /home/zenith/Downloads/Msacco-master/chowder/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:chowder] /home/zenith/Downloads/Msacco-master/chowder/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:8:22-72
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:9:5-72
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:9:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:10:5-73
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:10:22-70
+uses-permission#android.permission.READ_PROFILE
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:11:22-68
+application
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:13:5-45:19
+MERGED from [:chowder] /home/zenith/Downloads/Msacco-master/chowder/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-18:19
+MERGED from [:chowder] /home/zenith/Downloads/Msacco-master/chowder/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-18:19
+MERGED from [com.android.support:design:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/ca0d95b2e473ea463c8ea6fb9cc2d753/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/ca0d95b2e473ea463c8ea6fb9cc2d753/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/zenith/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f2564614b6cf8912bf6175606bc3203b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/zenith/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f2564614b6cf8912bf6175606bc3203b/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/bfafb1241ad6c82cc9bc0e24cfb8d310/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/bfafb1241ad6c82cc9bc0e24cfb8d310/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/5b9c546551c9bb2fdfe7d886e0052e58/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/5b9c546551c9bb2fdfe7d886e0052e58/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/620aca46bb9d9058581777e7b74fa0fe/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/620aca46bb9d9058581777e7b74fa0fe/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/68a1bed54c0d078357910b5c7a9aeed7/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/68a1bed54c0d078357910b5c7a9aeed7/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/d846a337973e8631bf41abd1b0b0b66b/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/d846a337973e8631bf41abd1b0b0b66b/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/88efb19e9fd9d554427dc127fe57ce2c/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/88efb19e9fd9d554427dc127fe57ce2c/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/f2ec862a8a40a9aac20ba6717cf8feb5/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/f2ec862a8a40a9aac20ba6717cf8feb5/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/3d64c0fbbe1e848fe258796c1b3ba8f7/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/3d64c0fbbe1e848fe258796c1b3ba8f7/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/6ddcf5d93ad2faf6fd1e992cbd732acc/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/6ddcf5d93ad2faf6fd1e992cbd732acc/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/d8cecb026eba04b1861a97f3f840b26e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/d8cecb026eba04b1861a97f3f840b26e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/e65c1e88350aa84739cbe7b0943f635f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/e65c1e88350aa84739cbe7b0943f635f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8b20100cbad2b8e517541a62b02b3634/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8b20100cbad2b8e517541a62b02b3634/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2eb9eb65407f305c15c2880de0f2c68c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2eb9eb65407f305c15c2880de0f2c68c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/55d335821784784b2cecaf7d1bd96fa1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/55d335821784784b2cecaf7d1bd96fa1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/7beb9be0554b701f2b6072af76dc0327/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/7beb9be0554b701f2b6072af76dc0327/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/a0500b71666ee32175681ace9e3d93a8/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/a0500b71666ee32175681ace9e3d93a8/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/a6117abcb9eba3bec3e6317182964f54/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/a6117abcb9eba3bec3e6317182964f54/AndroidManifest.xml:22:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/7beb9be0554b701f2b6072af76dc0327/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:20:9-40
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:14:9-42
+activity#com.dasayantist.msacco.login.Home
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:21:9-57
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:21:19-45
+activity#com.dasayantist.msacco.login.ResetPassword
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:22:9-57
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:22:19-54
+activity#com.dasayantist.msacco.login.Signin
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:23:9-50
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:23:19-47
+activity#com.dasayantist.msacco.login.Login
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:24:9-49
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:24:19-46
+activity#com.dasayantist.msacco.MainActivity
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:25:9-50
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:25:19-47
+activity#com.dasayantist.msacco.Premium
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:26:9-45
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:26:19-42
+activity#com.dasayantist.msacco.PostNumber
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:27:9-48
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:27:19-45
+activity#com.dasayantist.msacco.DBActivity
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:28:9-48
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:28:19-45
+activity#com.dasayantist.msacco.MySQLActivity
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:29:9-51
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:29:19-48
+activity#com.dasayantist.msacco.NewProductActivity
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:30:9-56
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:30:19-53
+activity#com.dasayantist.msacco.LoginActivity
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:31:9-38:20
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:31:19-48
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:32:13-37:29
+action#android.intent.action.MAIN
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:33:25-66
+action#android.intent.action.VIEW
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:36:27-74
+activity#com.dasayantist.msacco.ViewProductsActivity
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:39:9-58
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:39:19-55
+activity#com.dasayantist.msacco.UpdateProductActivity
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:40:9-59
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:40:19-56
+activity#com.dasayantist.msacco.DeleteProductActivity
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:41:9-59
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:41:19-56
+activity#com.dasayantist.msacco.PrincipalActivity
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:42:9-55
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:42:19-52
+activity#com.dasayantist.msacco.SignUpActivity
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:43:9-52
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:43:19-49
+activity#com.dasayantist.msacco.ResetPasswordActivity
+ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:44:9-59
+	android:name
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml:44:19-56
+uses-sdk
+INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml
+INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml
+MERGED from [:chowder] /home/zenith/Downloads/Msacco-master/chowder/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:chowder] /home/zenith/Downloads/Msacco-master/chowder/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/ca0d95b2e473ea463c8ea6fb9cc2d753/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/design-28.0.0-rc02.aar/ca0d95b2e473ea463c8ea6fb9cc2d753/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/2e53f7ed12491dba2ccfd6be62848d9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/2e53f7ed12491dba2ccfd6be62848d9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/zenith/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f2564614b6cf8912bf6175606bc3203b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/zenith/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f2564614b6cf8912bf6175606bc3203b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-rc02.aar/9bcd875b989b3884362c4be350281c1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-rc02.aar/9bcd875b989b3884362c4be350281c1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-rc02.aar/decec07fb03c32c9e277dff72db3896b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-rc02.aar/decec07fb03c32c9e277dff72db3896b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/bfafb1241ad6c82cc9bc0e24cfb8d310/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/bfafb1241ad6c82cc9bc0e24cfb8d310/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/353bb2e54b21a0e5dd9bb52b973f5f45/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/353bb2e54b21a0e5dd9bb52b973f5f45/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.1.aar/7007efdea1c4c13c68f505ab637c8ba2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.1.aar/7007efdea1c4c13c68f505ab637c8ba2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/5b9c546551c9bb2fdfe7d886e0052e58/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/5b9c546551c9bb2fdfe7d886e0052e58/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/d7cec39b1e7f6e495d97a4e790cd5b4f/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/d7cec39b1e7f6e495d97a4e790cd5b4f/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/620aca46bb9d9058581777e7b74fa0fe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/620aca46bb9d9058581777e7b74fa0fe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/68a1bed54c0d078357910b5c7a9aeed7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/68a1bed54c0d078357910b5c7a9aeed7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/d846a337973e8631bf41abd1b0b0b66b/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/d846a337973e8631bf41abd1b0b0b66b/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/76a18408a40d2505a763329c41ddd7ae/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/76a18408a40d2505a763329c41ddd7ae/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/88efb19e9fd9d554427dc127fe57ce2c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/88efb19e9fd9d554427dc127fe57ce2c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/f2ec862a8a40a9aac20ba6717cf8feb5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/f2ec862a8a40a9aac20ba6717cf8feb5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/3d64c0fbbe1e848fe258796c1b3ba8f7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/3d64c0fbbe1e848fe258796c1b3ba8f7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/04a1ca2cea2fdfce542b0c6dbbdcac5d/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/04a1ca2cea2fdfce542b0c6dbbdcac5d/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/bff1e92e7ee6f7fdd46e59d37c5a32b5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/bff1e92e7ee6f7fdd46e59d37c5a32b5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/6ddcf5d93ad2faf6fd1e992cbd732acc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/6ddcf5d93ad2faf6fd1e992cbd732acc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/d8cecb026eba04b1861a97f3f840b26e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/d8cecb026eba04b1861a97f3f840b26e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/e65c1e88350aa84739cbe7b0943f635f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/e65c1e88350aa84739cbe7b0943f635f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8b20100cbad2b8e517541a62b02b3634/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8b20100cbad2b8e517541a62b02b3634/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2eb9eb65407f305c15c2880de0f2c68c/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2eb9eb65407f305c15c2880de0f2c68c/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/4b0aa5ea4637ca317aaccd7d5e95e079/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/4b0aa5ea4637ca317aaccd7d5e95e079/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/7c638b6198622c20b03bc29186e7c2b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/7c638b6198622c20b03bc29186e7c2b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/50152c09b2425d3953899450eae71b60/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/50152c09b2425d3953899450eae71b60/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/c81282a7df7f17d0a8184f86af1169e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/c81282a7df7f17d0a8184f86af1169e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/50d0c6f9e59aba7df6a591c2342f06ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/50d0c6f9e59aba7df6a591c2342f06ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-rc02.aar/ec217fee4b12963f09af54adb7034223/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-rc02.aar/ec217fee4b12963f09af54adb7034223/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/3bc026c76b04c9099f50eb0be9f296f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/3bc026c76b04c9099f50eb0be9f296f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/65e55074587efa598e25bc3b3173404a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/65e55074587efa598e25bc3b3173404a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/6d4a5852ba9ed6d6b281aa335c78ee08/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/6d4a5852ba9ed6d6b281aa335c78ee08/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/34ac2af65d6d4006663aaf19d84a834f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/34ac2af65d6d4006663aaf19d84a834f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/7df4c208900167d7346f023c90c54289/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/7df4c208900167d7346f023c90c54289/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/ee9942e304fc62f12aee3f4686db2a2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/ee9942e304fc62f12aee3f4686db2a2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/710e1d323df30fc78899f2d677d81533/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/710e1d323df30fc78899f2d677d81533/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/45b62680c4bf16b4cd7f20d0298e7cae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/45b62680c4bf16b4cd7f20d0298e7cae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/55d335821784784b2cecaf7d1bd96fa1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/55d335821784784b2cecaf7d1bd96fa1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/7beb9be0554b701f2b6072af76dc0327/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/7beb9be0554b701f2b6072af76dc0327/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/a0500b71666ee32175681ace9e3d93a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/a0500b71666ee32175681ace9e3d93a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/c77e8f1acb6dc1c8bc318f8ff25925b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/c77e8f1acb6dc1c8bc318f8ff25925b6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/15cd1021bc66c85cb39a37bea984533f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/15cd1021bc66c85cb39a37bea984533f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/a7bd7d066f03bf2a9480e77d3da96918/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/a7bd7d066f03bf2a9480e77d3da96918/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/6757469d5ec556048cd0b9cde1e80517/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/6757469d5ec556048cd0b9cde1e80517/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/c2fdaca8d75b78db41c923f0f9644ec7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/c2fdaca8d75b78db41c923f0f9644ec7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a4677903d4fb62e2cd0aa786704b18e3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a4677903d4fb62e2cd0aa786704b18e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/0e003f0711a849c06659d099529c0bc6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] /home/zenith/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/0e003f0711a849c06659d099529c0bc6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/17ed1717a074d637eb2927522b0ba10c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/17ed1717a074d637eb2927522b0ba10c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0dae43fe488ec0fbde94e8e90e561d9f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0dae43fe488ec0fbde94e8e90e561d9f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/a6117abcb9eba3bec3e6317182964f54/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/a6117abcb9eba3bec3e6317182964f54/AndroidManifest.xml:20:5-44
+INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml
+INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2eb9eb65407f305c15c2880de0f2c68c/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/zenith/Downloads/Msacco-master/app/src/main/AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:24:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:31:9-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/5b9c546551c9bb2fdfe7d886e0052e58/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/5b9c546551c9bb2fdfe7d886e0052e58/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:31:18-89
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/5ab57eab7290780398b3ec5150d782f1/AndroidManifest.xml:33:17-109
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/5b9c546551c9bb2fdfe7d886e0052e58/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/68a1bed54c0d078357910b5c7a9aeed7/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/68a1bed54c0d078357910b5c7a9aeed7/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/5b9c546551c9bb2fdfe7d886e0052e58/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/5b9c546551c9bb2fdfe7d886e0052e58/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/5b9c546551c9bb2fdfe7d886e0052e58/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/5b9c546551c9bb2fdfe7d886e0052e58/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/68a1bed54c0d078357910b5c7a9aeed7/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/68a1bed54c0d078357910b5c7a9aeed7/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/68a1bed54c0d078357910b5c7a9aeed7/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/68a1bed54c0d078357910b5c7a9aeed7/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/caf46ae299fc83f54d81001429ec1416/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:29:9-63
+permission#com.dasayantist.msacco.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:32:22-76
+uses-permission#com.dasayantist.msacco.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.dasayantist.msacco
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:48:27-58
+category#com.dasayantist.msacco
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/662ff890da6ca1b46ed9653a44cd2b48/AndroidManifest.xml:60:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/d846a337973e8631bf41abd1b0b0b66b/AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/d846a337973e8631bf41abd1b0b0b66b/AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/d846a337973e8631bf41abd1b0b0b66b/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/d846a337973e8631bf41abd1b0b0b66b/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/d846a337973e8631bf41abd1b0b0b66b/AndroidManifest.xml:10:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/f2ec862a8a40a9aac20ba6717cf8feb5/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/f2ec862a8a40a9aac20ba6717cf8feb5/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/f2ec862a8a40a9aac20ba6717cf8feb5/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/f2ec862a8a40a9aac20ba6717cf8feb5/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8b20100cbad2b8e517541a62b02b3634/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8b20100cbad2b8e517541a62b02b3634/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/zenith/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8b20100cbad2b8e517541a62b02b3634/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2eb9eb65407f305c15c2880de0f2c68c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/55d335821784784b2cecaf7d1bd96fa1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/55d335821784784b2cecaf7d1bd96fa1/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2eb9eb65407f305c15c2880de0f2c68c/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /home/zenith/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/2eb9eb65407f305c15c2880de0f2c68c/AndroidManifest.xml:27:13-51
