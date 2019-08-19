@@ -66,7 +66,7 @@ public class GetNumber extends AsyncTask<String, Void, String> {
     protected String doInBackground(String... params) {
         String type=params[0];
         //urls
-        String reg_url="http://192.168.0.109/sacco/get_all_products.php";
+        String reg_url="http://192.168.0.102/sacco/get_all_products.php";
         //String login_url="https://889ed317.ngrok.io/userReg/login.php";
         if(type.equals("register"))
         {

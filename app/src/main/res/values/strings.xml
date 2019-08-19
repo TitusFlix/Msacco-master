@@ -7,14 +7,14 @@
     <string name="nav_header_desc">Navigation header</string>
 
 
-    <string name="no_connection">No internet connection.</string>
+    <string name="no_connection">No Internet Connection.</string>
     <string name="action_settings">Setting</string>
     <string name="view_products_info">These are all the products that are currently in our database: </string>
     <string name="update_product_info">Please Enter the products id to update it</string>
     <string name="delete_product_info">Please enter the id of the product to delete it</string>
 
 
-    <string name="txt_status">loan status</string>
+    <string name="txt_status">CHECK YOUR LOAN</string>
 
 
     <string name="title_activity_login">LoginActivity</string>

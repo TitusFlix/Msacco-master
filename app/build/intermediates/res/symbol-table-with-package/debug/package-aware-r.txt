@@ -1310,7 +1310,6 @@ id image
 id imageView
 id imgCall
 id imgSMS
-id img_status
 id info
 id invisible
 id italic

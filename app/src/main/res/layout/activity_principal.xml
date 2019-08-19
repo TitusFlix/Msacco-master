@@ -25,13 +25,13 @@
             android:layout_marginStart="20sp"
             android:orientation="horizontal">
 
-            <ImageView
+            <!--<ImageView
                 android:id="@+id/img_status"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:contentDescription="@string/app_name"
-                android:src="@drawable/ic_loan" />
+                android:src="@drawable/ic_loan" />-->
 
             <TextView
                 android:id="@+id/txt_status"
@@ -41,9 +41,10 @@
                 android:layout_marginStart="15sp"
                 android:gravity="center"
                 android:text="@string/txt_status"
+                android:textColor="@color/blue"
                 android:textSize="18sp" />
 
-            <Button
+            <!--<Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
@@ -51,6 +52,7 @@
                 android:text="Apply"
                 android:textSize="15sp"
                 android:textStyle="bold" />
+                -->
 
         </LinearLayout>
 

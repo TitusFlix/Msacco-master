@@ -71,7 +71,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
     Chowder chowder;
     String loan_no, pen, phone, interesti, date_time, amt, paybill, comment, principal;
     private int success = 0;
-    private String path = "http://192.168.0.109/sacco/order.php";
+    private String path = "http://192.168.0.102/sacco/order.php";
 
     public static boolean isNetworkStatusAvialable(Context context) {
         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -299,13 +299,16 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
                     myNum1 = Integer.parseInt(etLAmount.getText().toString());
                     int myNum20 = Integer.parseInt(txt_interest.getText().toString());
                     int myNum30 = Integer.parseInt(txt_penalty.getText().toString());
-                    tot = myNum20 + myNum30;
+                    tot = (myNum20 + myNum30);
 
                 } catch (NumberFormatException nfe) {
                     System.out.println("Could not parse " + nfe);
                 }
                 if (myNum1 >= tot) {
                     bPay.setEnabled(true);
+                }
+                else{
+                    bPay.setEnabled(false);
                 }
 
 
