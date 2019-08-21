@@ -13,19 +13,24 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Provide Your Correct Number"
-            android:textSize="29sp"
-            android:textColor="#f94800"/>
+            android:text="Provide Your Correct Member Number."
+            android:textColor="#2e9f8e"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="29sp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#000503"
-            android:text="Enter Phone"/>
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Enter Number"/>
         <EditText
             android:id="@+id/et_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="07xxxxxxxx"
+            android:textStyle="italic"
+            android:hint="member number"
             android:inputType="phone"/>
 
         <Button
@@ -34,7 +39,8 @@
             android:layout_height="wrap_content"
             android:onClick="OnReg"
             android:textColor="#000503"
-            android:background="#0eff24"
+            android:textStyle="bold"
+            android:background="#b8edfa"
             android:text="Proceed" />
 
     </LinearLayout>

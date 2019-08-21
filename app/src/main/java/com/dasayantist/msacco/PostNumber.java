@@ -38,7 +38,7 @@ public class PostNumber extends AppCompatActivity {
 
     public void OnReg(View view) {
         if (TextUtils.isEmpty(username.getText())) {
-            username.setError("Phone is Required");
+            username.setError("Number is Required");
         } else {
             username = (EditText) findViewById(R.id.et_name);
             String str_name = username.getText().toString().trim();

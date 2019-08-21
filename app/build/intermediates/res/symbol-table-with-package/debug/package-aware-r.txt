@@ -1465,7 +1465,6 @@ id tv_second_desc
 id tv_third_desc
 id tv_welcome
 id txt_Fname
-id txt_O_charges
 id txt_acno
 id txt_confirm_password
 id txt_id

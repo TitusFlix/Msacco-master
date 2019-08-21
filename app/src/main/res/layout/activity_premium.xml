@@ -121,8 +121,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                            android:textColor="#080002"
-                            android:text="TOTAL LOAN" />
+                            android:textColor="#2e9f8e"
+                            android:textStyle="bold"
+                            android:text="TOTAL LOAN:" />
 
                         <TextView
                         android:layout_width="wrap_content"
@@ -143,8 +144,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#080002"
-                            android:text="BALANCE" />
+                            android:textColor="#2e9f8e"
+                            android:textStyle="bold"
+                            android:text="BALANCE:" />
 
                         <TextView
                             android:id="@+id/txt_principal"
@@ -163,9 +165,10 @@
                         android:orientation="horizontal">
                     <TextView
                         android:layout_width="wrap_content"
-                        android:textColor="#080002"
+                        android:textColor="#2e9f8e"
+                        android:textStyle="bold"
                         android:layout_height="wrap_content"
-                        android:text="INTEREST" />
+                        android:text="INTEREST:" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -185,8 +188,9 @@
                         <TextView
                             android:layout_width="47dp"
                             android:layout_height="wrap_content"
-                            android:text="PENALTY"
-                            android:textColor="#080002" />
+                            android:text="PENALTY:"
+                            android:textColor="#2e9f8e"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/txt_penalty"
@@ -199,7 +203,7 @@
 
                     </LinearLayout>
 
-                    <LinearLayout
+                    <!--<LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
@@ -219,7 +223,7 @@
                             android:text="@string/other_c"
                             android:textStyle="bold" />
 
-                    </LinearLayout>
+                    </LinearLayout>-->
 
 
                     <android.support.design.widget.TextInputLayout

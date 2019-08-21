@@ -54,7 +54,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
     String PASSKEY = "be9dc35907bd98ee471bbfe9ddd87e724cdef18ac3eabfecdfd08f2cc4a5c3e0";
 
     EditText etLAmount, etPhoneNumber ,txt_principal1;
-    TextView txt_total, txt_principal, txt_interest, txt_penalty, txt_o_charges;
+    TextView txt_total, txt_principal, txt_interest, txt_penalty ;
     Button bPay, bConfirm, bAccess;
 
     String loan_id = "";
@@ -69,9 +69,9 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
     //progress dialog
     private ProgressDialog pDialog;
     Chowder chowder;
-    String loan_no, pen, phone, interesti, date_time, amt, paybill, comment, principal;
+    String loan_no, pen, phone, interesti, date_time, amt, paybill, comment;
     private int success = 0;
-    private String path = "http://192.168.0.102/sacco/order.php";
+    private String path = "http://192.168.0.106/sacco/order.php";
 
     public static boolean isNetworkStatusAvialable(Context context) {
         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -101,7 +101,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
         txt_principal = findViewById(R.id.txt_principal);
         txt_interest = findViewById(R.id.txt_interest);
         txt_penalty = findViewById(R.id.txt_penalty);
-        txt_o_charges = findViewById(R.id.txt_O_charges);
+        //txt_o_charges = findViewById(R.id.txt_O_charges);
         //txt_principal1 = findViewById(R.id.txt_principal1);
 
 
@@ -277,9 +277,9 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
 
 
                 try {
-                    myNum1 = Integer.parseInt(etLAmount.getText().toString());
-                    int myNum12 = Integer.parseInt(txt_interest.getText().toString());
-                    int myNum13 = Integer.parseInt(txt_penalty.getText().toString());
+                    myNum1 = Integer.valueOf(etLAmount.getText().toString());
+                    int myNum12 = Integer.valueOf(txt_interest.getText().toString());
+                    int myNum13 = Integer.valueOf(txt_penalty.getText().toString());
                     tot = myNum12 + myNum13;
 
                 } catch (NumberFormatException nfe) {
@@ -296,10 +296,11 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
                 int myNum1 = 0;
                 int tot = 0;
                 try {
-                    myNum1 = Integer.parseInt(etLAmount.getText().toString());
-                    int myNum20 = Integer.parseInt(txt_interest.getText().toString());
-                    int myNum30 = Integer.parseInt(txt_penalty.getText().toString());
+                    myNum1 = Integer.valueOf(etLAmount.getText().toString());
+                    int myNum20 = Integer.valueOf(txt_interest.getText().toString());
+                    int myNum30 = Integer.valueOf(txt_penalty.getText().toString());
                     tot = (myNum20 + myNum30);
+                    
 
                 } catch (NumberFormatException nfe) {
                     System.out.println("Could not parse " + nfe);
@@ -443,7 +444,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
         amt = etLAmount.getText().toString();
         paybill = PAYBILL_NUMBER;
         comment= "Mpesa Remmittance";
-        principal=loan_bal;
+        //principal=loan_bal;
 
         new PostDataTOServer().execute();
     }
@@ -578,8 +579,8 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
                         URLEncoder.encode(paybill, "UTF-8");
                 data += "&" + URLEncoder.encode("comment", "UTF-8") + "=" +
                         URLEncoder.encode(comment, "UTF-8");
-                data += "&" + URLEncoder.encode("principal", "UTF-8") + "=" +
-                        URLEncoder.encode(principal, "UTF-8");
+                //data += "&" + URLEncoder.encode("principal", "UTF-8") + "=" +
+                       // URLEncoder.encode(principal, "UTF-8");
 
                 URL url = new URL(link);
                 URLConnection conn = url.openConnection();
