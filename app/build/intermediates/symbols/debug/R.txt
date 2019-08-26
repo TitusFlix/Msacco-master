@@ -1602,6 +1602,7 @@ int menu activity_main_drawer 0x7f0d0000
 int menu main 0x7f0d0001
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_round 0x7f0e0001
+int mipmap images 0x7f0e0002
 int string Profile 0x7f0f0000
 int string Save 0x7f0f0001
 int string _100 0x7f0f0002

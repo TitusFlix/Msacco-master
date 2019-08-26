@@ -187,7 +187,7 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Us
 	android:roundIcon
 		ADDED from C:\Users\developer\AndroidStudioProjects\Msacco-master1\app\src\main\AndroidManifest.xml:18:9-54
 	android:icon
-		ADDED from C:\Users\developer\AndroidStudioProjects\Msacco-master1\app\src\main\AndroidManifest.xml:16:9-43
+		ADDED from C:\Users\developer\AndroidStudioProjects\Msacco-master1\app\src\main\AndroidManifest.xml:16:9-38
 	android:allowBackup
 		ADDED from C:\Users\developer\AndroidStudioProjects\Msacco-master1\app\src\main\AndroidManifest.xml:15:9-35
 	android:theme

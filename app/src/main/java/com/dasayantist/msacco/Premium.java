@@ -17,6 +17,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.ActionMode;
 import android.view.View;
 import android.widget.Button;
@@ -69,7 +70,8 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
     //progress dialog
     private ProgressDialog pDialog;
     Chowder chowder;
-    String loan_no, pen, phone, interesti, date_time, amt, paybill, comment;
+    public String loan_no, pen, phone, interesti, date_time, amt, paybill, comment,status,transactionstatus;
+    public String transaction_id="";
     private int success = 0;
     private String path = "http://192.168.0.106/sacco/order.php";
 
@@ -219,7 +221,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
                                 android.app.AlertDialog.Builder a_builder = new android.app.AlertDialog.Builder(Premium.this);
                                 a_builder.setMessage("Ensure your internet connection is on,then click on the confirm payment button\n" +
                                         "If your last transaction is shown on the screen ,restart app and login again\n" +
-                                        "if you dont get any message call:0729314341 for further assistance").setCancelable(false)
+                                        "if you dont get any message call:0722000000 for further assistance").setCancelable(false)
 
                                         .setNegativeButton("OK", new DialogInterface.OnClickListener() {
                                             public void onClick(DialogInterface dialog, int which) {
@@ -272,45 +274,46 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                int myNum1 = 0;
-                int tot = 0;
-
-
+               // Log.i("myTag", "This is onTextChanged");
                 try {
-                    myNum1 = Integer.valueOf(etLAmount.getText().toString());
-                    int myNum12 = Integer.valueOf(txt_interest.getText().toString());
-                    int myNum13 = Integer.valueOf(txt_penalty.getText().toString());
-                    tot = myNum12 + myNum13;
+                    double   myNum1 = Double.parseDouble(etLAmount.getText().toString());
+                    double myNum20 = Double.parseDouble(txt_interest.getText().toString());
+                    double myNum30 = Double.parseDouble(txt_penalty.getText().toString());
+                    double  tot = myNum20 + myNum30;
+                    if (1==1) {
+                        bPay.setEnabled(true);
+                    }
+                    else{
+                        bPay.setEnabled(false);
+                    }
 
                 } catch (NumberFormatException nfe) {
                     System.out.println("Could not parse " + nfe);
                 }
-                if (myNum1 >= tot) {
-                    bPay.setEnabled(true);
-                }
+
 
             }
 
             @Override
             public void afterTextChanged(Editable s) {
-                int myNum1 = 0;
-                int tot = 0;
+               // Log.i("myTag", "This is afterTextChanged");
                 try {
-                    myNum1 = Integer.valueOf(etLAmount.getText().toString());
-                    int myNum20 = Integer.valueOf(txt_interest.getText().toString());
-                    int myNum30 = Integer.valueOf(txt_penalty.getText().toString());
-                    tot = (myNum20 + myNum30);
-                    
+                 double   myNum1 = Double.parseDouble(etLAmount.getText().toString());
+                    double myNum20 = Double.parseDouble(txt_interest.getText().toString());
+                    double myNum30 = Double.parseDouble(txt_penalty.getText().toString());
+                  double  tot = myNum20 + myNum30;
+                    if (1==1) {
+                        bPay.setEnabled(true);
+                    }
+                    else{
+                        bPay.setEnabled(false);
+                    }
 
                 } catch (NumberFormatException nfe) {
                     System.out.println("Could not parse " + nfe);
                 }
-                if (myNum1 >= tot) {
-                    bPay.setEnabled(true);
-                }
-                else{
-                    bPay.setEnabled(false);
-                }
+
+
 
 
             }
@@ -444,9 +447,11 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
         amt = etLAmount.getText().toString();
         paybill = PAYBILL_NUMBER;
         comment= "Mpesa Remmittance";
-        //principal=loan_bal;
+        status="";
+        transactionstatus="";
+        transaction_id="";
 
-        new PostDataTOServer().execute();
+        //new PostDataTOServer().execute();
     }
 
 
@@ -459,6 +464,8 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
         //Save the transaction ID
         SharedPreferences sp = getSharedPreferences(getPackageName(), Context.MODE_PRIVATE);
         sp.edit().putString("chowderTransactionId", transactionId).apply();
+       //String transactionId1 = transactionId;
+       status=returnCode;
 
         new AlertDialog.Builder(Premium.this)
 
@@ -472,6 +479,8 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
                         dialog.dismiss();
                     }
                 }).show();
+        new PostDataTOServer().execute();
+
     }
 
     @Override
@@ -480,7 +489,9 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
         //RegSer();
         sharedPreference = new SharedPreference();
         Activity context = this;
-        sharedPreference.save(context, transactionStatus);
+        //sharedPreference.save(context, transactionStatus);
+        sharedPreference.save(context, mpesaTransactionId);
+        transaction_id="12345";
         new AlertDialog.Builder(Premium.this)
                 .setTitle("Payment confirmed")
                 .setMessage(transactionStatus + ". Your amount of Ksh." + amount + " has been successfully paid from " + msisdn + " to PayBill number " + merchantId + " with the M-Pesa transaction code " + mpesaTransactionId + " on " + mpesaTransactionDate + ".\n\n iSing App\n\n Thank you for using the service\n iSing getting you Entertain")
@@ -494,11 +505,14 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
                         dialog.dismiss();
                     }
                 }).show();
+        //new PostDataTOServer().execute();
     }
 
     @Override
     public void onPaymentFailure(String merchantId, String msisdn, String amount, String transactionStatus, String processDescription) {
         //The payment failed.
+        String transactionStatus1=transactionStatus;
+        transactionstatus=transactionStatus1;
         new AlertDialog.Builder(Premium.this)
                 .setTitle("Payment failed")
                 .setMessage(transactionStatus + ". Your amount of Ksh." + amount + " was not paid from " + msisdn + " to PayBill number " + merchantId + ". Please try again.")
@@ -521,6 +535,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
                 dialog.dismiss();
             }
         }).show();
+        //new PostDataTOServer().execute();
     }
    /* private void accessMainApp() {
         prefManager.setFirstTimeLaunch(false);
@@ -579,8 +594,8 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
                         URLEncoder.encode(paybill, "UTF-8");
                 data += "&" + URLEncoder.encode("comment", "UTF-8") + "=" +
                         URLEncoder.encode(comment, "UTF-8");
-                //data += "&" + URLEncoder.encode("principal", "UTF-8") + "=" +
-                       // URLEncoder.encode(principal, "UTF-8");
+                data += "&" + URLEncoder.encode("transactionid", "UTF-8") + "=" +
+                        URLEncoder.encode(status, "UTF-8");
 
                 URL url = new URL(link);
                 URLConnection conn = url.openConnection();

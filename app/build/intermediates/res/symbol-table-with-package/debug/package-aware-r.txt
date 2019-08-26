@@ -1603,6 +1603,7 @@ menu activity_main_drawer
 menu main
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap images
 string Profile
 string Save
 string _100

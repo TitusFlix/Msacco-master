@@ -188,7 +188,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"
-                        android:text="TOTAL: "
+                        android:text="L. TOTAL : "
                         android:textStyle="bold" />
 
                     <TextView
@@ -216,7 +216,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pay"
+                    android:text="PAY"
                     android:id="@+id/imgCall"
                     android:textStyle="bold" />
 
