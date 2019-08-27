@@ -62,6 +62,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
     String penalty="";
     String interest="";
     String loan_bal="";
+    String tel="";
 
     int attempt_counter = 3;
     private static TextView attempts;
@@ -73,7 +74,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
     public String loan_no, pen, phone, interesti, date_time, amt, paybill, comment,status,transactionstatus;
     public String transaction_id="";
     private int success = 0;
-    private String path = "http://192.168.0.106/sacco/order.php";
+    private String path = "http://192.168.0.166/sacco/order.php";
 
     public static boolean isNetworkStatusAvialable(Context context) {
         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -103,6 +104,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
         txt_principal = findViewById(R.id.txt_principal);
         txt_interest = findViewById(R.id.txt_interest);
         txt_penalty = findViewById(R.id.txt_penalty);
+        //etPhoneNumber = findViewById(R.id.phone);
         //txt_o_charges = findViewById(R.id.txt_O_charges);
         //txt_principal1 = findViewById(R.id.txt_principal1);
 
@@ -280,7 +282,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
                     double myNum20 = Double.parseDouble(txt_interest.getText().toString());
                     double myNum30 = Double.parseDouble(txt_penalty.getText().toString());
                     double  tot = myNum20 + myNum30;
-                    if (1==1) {
+                    if (myNum1>=tot) {
                         bPay.setEnabled(true);
                     }
                     else{
@@ -302,7 +304,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
                     double myNum20 = Double.parseDouble(txt_interest.getText().toString());
                     double myNum30 = Double.parseDouble(txt_penalty.getText().toString());
                   double  tot = myNum20 + myNum30;
-                    if (1==1) {
+                    if (myNum1>=tot) {
                         bPay.setEnabled(true);
                     }
                     else{

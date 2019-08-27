@@ -229,13 +229,15 @@ private void loanJson(){
 
                                // new Gson().fromJson(jsonString, MyObject.class)
                                 String name = phone.get("name").toString();
+                                String names = phone.get("name").toString();
+                                String phones = phone.get("name").toString();
                                 String price = phone.get("price").toString();
                                 String description = phone.get("description").toString();
 
                                 //Map<String, Object> map = (Map<String, Object>) phone;
                                 //Loan loan = new Loan(map.get(name).toString(), map.get(name).toString(), map.get(price).toString(), map.get(description).toString());
 
-                                        Loan loan = new Loan(name, price, name, price, price, name, price);
+                                        Loan loan = new Loan(name,names,phones, price, name, price, price, name, price);
 //                                jsonResponse = "";
 //                                jsonResponse += "Loan ID: " + name + "\n\n";
 //                                jsonResponse += "Principal: " + price + "\n\n";

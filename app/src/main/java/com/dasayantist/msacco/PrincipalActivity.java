@@ -126,6 +126,8 @@ public class PrincipalActivity extends AppCompatActivity implements SwipeRefresh
                                 for (int i = 0; i < products.length(); i++) {
                                     JSONObject phone = products.getJSONObject(i);
                                     if (!JSONObject.NULL.equals(phone)) {
+                                        String names = phone.get("name").toString();
+                                        String phones = phone.get("phone").toString();
                                         String loan_type = phone.get("loantypename").toString();
                                         String loan_id = phone.get("loanno").toString();
                                         String loan_amount = phone.get("loanamount").toString();
@@ -133,9 +135,9 @@ public class PrincipalActivity extends AppCompatActivity implements SwipeRefresh
                                         String interest = phone.get("interest").toString();
                                         String s_time = phone.get("s_time").toString();
                                         String penalty = phone.get("penalty").toString();
-                                        //loantypename loanamount loanno interest s_time penalty loanbalance
+                                        //name loantypename loanamount loanno interest s_time penalty loanbalance
 
-                                        Loan loan = new Loan(loan_type, loan_id, loan_amount, principal, interest, s_time, penalty);
+                                        Loan loan = new Loan(names,phones,loan_type,loan_id, loan_amount, principal, interest, s_time, penalty);
                                         data.add(loan);
                                     }
                                 }

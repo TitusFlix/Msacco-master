@@ -1347,6 +1347,7 @@ id msg_status
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id names
 id nav_camera
 id nav_gallery
 id nav_manage
@@ -1373,6 +1374,7 @@ id parentPanel
 id parent_matrix
 id password
 id percent
+id phone
 id pid_input
 id pin
 id product_deletion_view

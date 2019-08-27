@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\developer\\AndroidStudioProjects\\Msacco-master1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\developer\\AndroidStudioProjects\\Msacco-master2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\developer\\AndroidStudioProjects\\Msacco-master1\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "C:\\Users\\developer\\AndroidStudioProjects\\Msacco-master2\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

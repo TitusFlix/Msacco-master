@@ -63,6 +63,8 @@ public class LoanListAdapter extends BaseAdapter {
             convertView = inflater.inflate(R.layout.loanlist, parent, false);
 
             viewHolder = new ViewHolder();
+            viewHolder.names = convertView.findViewById(R.id.names);
+            viewHolder.phone = convertView.findViewById(R.id.phone);
             viewHolder.loan_type = convertView.findViewById(R.id.loan_type);
             viewHolder.loan_id = convertView.findViewById(R.id.loan_id);
             viewHolder.loan_principal = convertView.findViewById(R.id.loan_principal);
@@ -80,6 +82,8 @@ public class LoanListAdapter extends BaseAdapter {
             viewHolder = (ViewHolder) convertView.getTag();
         }
         final Loan loan = temporaryArray.get(position);
+        viewHolder.names.setText(loan.getNames());
+        viewHolder.phone.setText(loan.getPhone());
         viewHolder.loan_type.setText(loan.getLoan_type());
         viewHolder.loan_id.setText(loan.getLoan_id());
         viewHolder.loan_principal.setText(loan.getPrincipal());
@@ -91,6 +95,8 @@ public class LoanListAdapter extends BaseAdapter {
         viewHolder.imgCall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String names = loan.getNames();
+                String phone = loan.getPhone();
                 String loan_bal = loan.getPrincipal();
                 String loan_id = loan.getLoan_id();
                 String penalty = loan.getPenalty();
@@ -164,6 +170,8 @@ public class LoanListAdapter extends BaseAdapter {
 
     static class ViewHolder {
         TextView loan_type;
+        TextView phone;
+        TextView names;
         TextView loan_id;
         TextView loan_principal;
         TextView loan_interest;

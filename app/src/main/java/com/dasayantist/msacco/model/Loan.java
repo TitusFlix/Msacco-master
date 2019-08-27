@@ -2,6 +2,8 @@ package com.dasayantist.msacco.model;
 
 public class Loan {
     private String id;
+    private String names;
+    private String phones;
     private String loan_type;
     private String loan_id;
     private String loan_amount;
@@ -10,7 +12,9 @@ public class Loan {
     private String s_time;
     private String penalty;
 
-    public Loan(String loan_type, String loan_id, String loan_amount, String principal, String interest, String s_time, String penalty) {
+    public Loan(String names,String phones, String loan_type, String loan_id, String loan_amount, String principal, String interest, String s_time, String penalty) {
+        this.names = names;
+        this.phones = phones;
         this.loan_type = loan_type;
         this.loan_id = loan_id;
         this.loan_amount = loan_amount;
@@ -20,8 +24,10 @@ public class Loan {
         this.penalty = penalty;
     }
 
-    public Loan(String id, String loan_type, String loan_id, String loan_amount, String principal, String interest, String s_time, String penalty) {
+    public Loan(String id,String names, String phones, String loan_type, String loan_id, String loan_amount, String principal, String interest, String s_time, String penalty) {
         this.id = id;
+        this.names =names;
+        this.phones = phones;
         this.loan_type = loan_type;
         this.loan_id = loan_id;
         this.loan_amount = loan_amount;
@@ -40,6 +46,23 @@ public class Loan {
     }
 
     //loan_type, loan_id, loan_amount, principal, interest, s_time,penalty
+    //names
+    public String getNames() {
+        return names;
+    }
+
+    public void setNames(String names) {
+        this.names = names;
+    }
+    //phone
+    public String getPhone() {
+        return phones;
+    }
+
+    public void setPhone(String phones) {
+        this.phones = phones;
+    }
+      //loan type
     public String getLoan_type() {
         return loan_type;
     }
