@@ -294,6 +294,14 @@
         <item>24</item>
         <item>25</item>
     </string-array>
+    <!--TRANSACTION TYPE-->
+
+    <string-array name="transaction">
+        <item>Select</item>
+        <item>LOAN</item>
+        <item>SHARES1</item>
+        <item>DEPOSIT/SAVINGS1</item>
+    </string-array>
 
     <!--Countries-->
     <string-array name="countries_names">

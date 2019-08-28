@@ -32,6 +32,18 @@
             android:textStyle="italic"
             android:hint="member number"
             android:inputType="phone"/>
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+            android:gravity="center"
+    android:textColor="#000503"
+    android:text="Transaction Type"/>
+<Spinner
+    android:id="@+id/spinner1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textEmailAddress"/>
 
         <Button
             android:id="@+id/btn_reg"

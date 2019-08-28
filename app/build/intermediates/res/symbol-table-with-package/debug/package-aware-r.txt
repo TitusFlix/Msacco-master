@@ -38,6 +38,7 @@ array pref_sync_frequency_titles
 array pref_sync_frequency_values
 array reminder_days_available
 array report_to
+array transaction
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1419,6 +1420,7 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id spinner1
 id split_action_bar
 id spread
 id spread_inside
