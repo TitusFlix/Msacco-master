@@ -24,6 +24,7 @@
         <activity android:name=".login.Login" />
         <activity android:name=".MainActivity" />
         <activity android:name=".Premium" />
+        <activity android:name=".PremiumDep" />
         <activity android:name=".PostNumber" />
         <activity android:name=".DBActivity" />
         <activity android:name=".MySQLActivity" />

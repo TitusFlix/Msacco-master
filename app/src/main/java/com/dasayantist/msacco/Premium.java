@@ -451,9 +451,10 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
         comment= "Mpesa Remmittance";
         status="";
         transactionstatus="";
-        transaction_id="";
+       // String mpesaTransactionId;
+        //transaction_id= mpesaTransactionId;
 
-        //new PostDataTOServer().execute();
+        new PostDataTOServer().execute();
     }
 
 
@@ -467,7 +468,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
         SharedPreferences sp = getSharedPreferences(getPackageName(), Context.MODE_PRIVATE);
         sp.edit().putString("chowderTransactionId", transactionId).apply();
        //String transactionId1 = transactionId;
-       status=returnCode;
+       //status=returnCode;
 
         new AlertDialog.Builder(Premium.this)
 
@@ -488,12 +489,12 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
     @Override
     public void onPaymentSuccess(String merchantId, String msisdn, String amount, String mpesaTransactionDate, String mpesaTransactionId, String transactionStatus, String returnCode, String processDescription, String merchantTransactionId, String encParams, String transactionId) {
         //The payment was successful.
-        //RegSer();
+        RegSer();
         sharedPreference = new SharedPreference();
         Activity context = this;
-        //sharedPreference.save(context, transactionStatus);
-        sharedPreference.save(context, mpesaTransactionId);
-        transaction_id="12345";
+        sharedPreference.save(context, transactionStatus);
+        //sharedPreference.save(context, mpesaTransactionId);
+        transaction_id=mpesaTransactionId;
         new AlertDialog.Builder(Premium.this)
                 .setTitle("Payment confirmed")
                 .setMessage(transactionStatus + ". Your amount of Ksh." + amount + " has been successfully paid from " + msisdn + " to PayBill number " + merchantId + " with the M-Pesa transaction code " + mpesaTransactionId + " on " + mpesaTransactionDate + ".\n\n iSing App\n\n Thank you for using the service\n iSing getting you Entertain")
@@ -507,7 +508,6 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
                         dialog.dismiss();
                     }
                 }).show();
-        //new PostDataTOServer().execute();
     }
 
     @Override

@@ -1367,6 +1367,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id num
 id outline
 id packed
 id parallax
@@ -1408,6 +1409,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id share
 id shortcut
 id showCustom
 id showHome
@@ -1559,6 +1561,7 @@ layout activity_update_product
 layout activity_view_products
 layout app_bar_main
 layout content_main
+layout deposit_shares
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

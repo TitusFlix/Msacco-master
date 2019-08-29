@@ -17,7 +17,7 @@ import android.widget.Toast;
 
 public class PostNumber extends AppCompatActivity {
     EditText username;
-    String str_name, str_surname, str_id, str_phone;
+    String str_name,str_transaction;
     private ProgressDialog progress;
     Spinner spinner;
     Button btn_reg;
@@ -50,8 +50,16 @@ public class PostNumber extends AppCompatActivity {
         }else if(spinner.getSelectedItem().equals("Select")){
             Toast.makeText(PostNumber.this,"Please Select transaction type !!", Toast.LENGTH_LONG) .show();
             return;
-        }
+        }else if(spinner.getSelectedItem().equals("SHARES1") ||spinner.getSelectedItem().equals("DEPOSIT/SAVINGS1")) {
+            Intent myIntent = new Intent(this, PremiumDep.class);
+            Bundle bundle=new Bundle();
+            bundle.putString("number",username.getText().toString());
+            bundle.putString("transaction",spinner.getSelectedItem().toString());
+            //myIntent.putExtra("number", str_name);
+            myIntent.putExtras(bundle);
 
+            startActivity(myIntent);
+        }
         else {
             username = (EditText) findViewById(R.id.et_name);
             String str_name = username.getText().toString().trim();

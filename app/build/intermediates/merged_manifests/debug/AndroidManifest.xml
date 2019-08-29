@@ -42,6 +42,7 @@
         <activity android:name="com.dasayantist.msacco.login.Login" />
         <activity android:name="com.dasayantist.msacco.MainActivity" />
         <activity android:name="com.dasayantist.msacco.Premium" />
+        <activity android:name="com.dasayantist.msacco.PremiumDep" />
         <activity android:name="com.dasayantist.msacco.PostNumber" />
         <activity android:name="com.dasayantist.msacco.DBActivity" />
         <activity android:name="com.dasayantist.msacco.MySQLActivity" />
