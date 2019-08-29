@@ -466,6 +466,7 @@ public class PremiumDep extends BaseActivity implements PaymentListener, IMainAc
                         dialog.dismiss();
                     }
                 }).show();
+        //titus
         //new PostDataTOServer().execute();
 
     }
