@@ -76,7 +76,7 @@ public class PremiumDep extends BaseActivity implements PaymentListener, IMainAc
     public String number,share_type;
     public String transaction_id="";
     private int success = 0;
-    private String path = "http://192.168.0.166/sacco/deposit.php";
+    private String path = "http://192.168.100.65/sacco/deposit.php";
 
     public static boolean isNetworkStatusAvialable(Context context) {
         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -132,17 +132,12 @@ public class PremiumDep extends BaseActivity implements PaymentListener, IMainAc
 // do something here
         }
         else{
-//            viewDescription.setVisibility(View.GONE);
-//            noConnection.setVisibility(View.VISIBLE);
         }
 
 
         setUp();
 
     }
-
-//
-
     @Override
     public void onDestroy() {
         // You must call this or the ad adapter may cause a memory leak
@@ -372,6 +367,8 @@ public class PremiumDep extends BaseActivity implements PaymentListener, IMainAc
                     //      The transaction is processed on M-PESA and a callback is executed after completion of the transaction
                 }     }
         });
+        etLAmount.getText().clear();
+        etPhoneNumber.getText().clear();
 
 
 
@@ -474,7 +471,7 @@ public class PremiumDep extends BaseActivity implements PaymentListener, IMainAc
     @Override
     public void onPaymentSuccess(String merchantId, String msisdn, String amount, String mpesaTransactionDate, String mpesaTransactionId, String transactionStatus, String returnCode, String processDescription, String merchantTransactionId, String encParams, String transactionId) {
         //The payment was successful.
-        //RegSer();
+        RegSer();
         sharedPreference = new SharedPreference();
         Activity context = this;
         sharedPreference.save(context, transactionStatus);

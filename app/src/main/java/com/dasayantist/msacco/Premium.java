@@ -74,7 +74,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
     public String loan_no, pen, phone, interesti, date_time, amt, paybill, comment,status,transactionstatus;
     public String transaction_id="";
     private int success = 0;
-    private String path = "http://192.168.0.166/sacco/order.php";
+    private String path = "http://192.168.100.39/sacco/order.php";
 
     public static boolean isNetworkStatusAvialable(Context context) {
         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -482,7 +482,7 @@ public class Premium extends BaseActivity implements PaymentListener, IMainActiv
                         dialog.dismiss();
                     }
                 }).show();
-        new PostDataTOServer().execute();
+        //new PostDataTOServer().execute();
 
     }
 
